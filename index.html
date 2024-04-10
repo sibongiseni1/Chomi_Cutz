@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="" href="products.html">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <title>Chomi Cutz</title>
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo"><a href="#" class="logo">Chomi Cutz</a></div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="#products">New Arrivals</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#cart"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>New Arrivals For Men & Women</h1>
+        <p>Get the Best Products in the Store</p>
+        <button><a href="#products">Shop Now</a></button>
+    </section>
+
+        <h1 class="pheading">Our Latest Products</h1>
+
+        <section id="products" class="sec">
+            <div class="products">
+
+                <div class="card">
+                    <div class="img"><img src="assests/IMG-20240403-WA0028.jpg" alt=""></div>
+                    <div class="desc">Hair</div>
+                    <div class="title">Hair Oil Set</div>
+                    <div class="box">
+                        <div class="price">R150</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <div class="img"><img src="assests/IMG-20240403-WA0046.jpg" alt=""></div>
+                    <div class="desc">T-Shirts</div>
+                    <div class="title">Manje Kleen T-Shirt</div>
+                    <div class="box">
+                        <div class="price">R350</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img"><img src="assests/IMG-20240403-WA0051.jpg" alt=""></div>
+                    <div class="desc">T-Shirts</div>
+                    <div class="title">White Chomi Cutz T-Shirt</div>
+                    <div class="box">
+                        <div class="price">R350</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img"><img src="assests/IMG-20240403-WA0031.jpg" alt=""></div>
+                    <div class="desc">Barber</div>
+                    <div class="title">Fade</div>
+                    <div class="box">
+                        <div class="price">R50</div>
+                        <button class="btn">Book Your Appointment</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section id="cart" class="Cart">
+        <section>
+
+        </section>
+        <section id="contact" class="Contact">
+        </div>
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="2bc54dfa-1593-4397-b0c2-25c0ce109951">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="phone-number" name="phone-number" placeholder="Phone Number" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" name="" value="Submit" class="btn">
+            </form>
+        </div>
+
+        <div class="home-sci1">
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+
+
+
+        <footer>
+            <p>Copyrights at <a href="">Chomi Cutz</a></p>
+        </footer>
+
+
+        <script src="app.js"></script>
+        <script>
+            $(".menu-btn").click(function(){
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        </script>
+</body>
+</html>
